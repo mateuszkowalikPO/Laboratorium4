@@ -7,6 +7,7 @@ for i in range(liczba_produktow):
     cena = float(input(f"Cena: "))
     produkty.append(produkt)
     ceny.append(cena)
+
 print("\n=== CENNIK ===")
 for numer, (produkt, cena) in enumerate(zip(produkty, ceny), start=1):
     print(f"{numer}. {produkt} - {int(cena)} zł")
